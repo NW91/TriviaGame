@@ -17,6 +17,66 @@ var questions = [{
     answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
     correctAnswer: "this is choice number 3",
     image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
+}, {
+    question: "this would be your next trivia question?",
+    answers: ["this is choice number 1", "this is choice number 2", "this is choice number 3", "this is choice number 4"],
+    correctAnswer: "this is choice number 1",
+    image: "assets/images/choiceNumber1.gif"
 }];
 
 var game = {
