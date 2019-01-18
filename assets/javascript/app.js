@@ -1,11 +1,11 @@
 //Javascript
-$('start').on('click', function(){
-    $('start').remove();
+$('#start').on('click', function(){
+    $('#start').remove();
     game.loadQuestion();
 })
 
-$(document).on('click', '.answer-button', function(event){
-    game.clicked(event);
+$(document).on('click', '.answer-button', function(e){
+    game.clicked(e);
 })
 
 //trivia questions array, sub-answers array, and images to attach
@@ -88,7 +88,7 @@ var questions = [{
 
 //variables
 var game = {
-    questions:question,
+    questions:questions,
     currentQuestion:0,
     counter:30,
     correct:0,
@@ -97,14 +97,14 @@ var game = {
     countdown: function(){
         game.counter--;
         $('#counter').html(game.counter);
-        if(game.counter<= 0){
+        if(game.counter<=0){
             console.log("Time is up!");
             game.timeUp();
         }
     },
     loadQuestion: function(){
         timer = setInterval(game.countdown,1000);
-        $('#subwrapper').html('<h2>'+questions[game.currentQuestion].question+"</h2>");
+        $('#subwrapper').html('<h2>'+questions[game.currentQuestion].question+'</h2>');
         for(var i=0;i<questions[game.currentQuestion].answers.length;i++){
             $('#subwrapper').append('<button class="answer-button" id="button-'+i+'" data-name="'+questions[game.currentQuestion].answers[i]+'">'+questions[game.currentQuestion].answers[i]+'</button>');
             console.log(timer)
