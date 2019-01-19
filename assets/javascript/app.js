@@ -108,7 +108,7 @@ var game = {
     },
     loadQuestion: function(){
         timer = setInterval(game.countdown,1000);
-        $('#subwrapper').html("<h2>'counter'>30</h2>");
+        $("#subwrapper").html("<h2> Time Remaining: <span id='counter'> 30 </span> Seconds</h2>");
         $('#subwrapper').append('<h2>'+questions[game.currentQuestion].question+'</h2>');
         for(var i=0;i<questions[game.currentQuestion].answers.length;i++){
             $('#subwrapper').append('<button class="answer-button" id="button-'+i+'" data-name="'+questions[game.currentQuestion].answers[i]+'">'+questions[game.currentQuestion].answers[i]+'</button>');
@@ -134,7 +134,7 @@ var game = {
     },
     results: function(){
         clearInterval(timer);
-        $('#subwrapper').html("<h2>All Done!</h2>");
+        $('#subwrapper').html("<h2>You're all done!</h2>");
         $('#subwrapper').append("<h3>Correct: "+game.correct+"</h3>");
         $('#subwrapper').append("<h3>Incorrect "+game.incorrect+"</h3>");
         $('#subwrapper').append("<h3>Unanswered: "+game.unanswered+"</h3>");
