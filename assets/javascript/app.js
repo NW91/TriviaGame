@@ -140,7 +140,7 @@ var game = {
         $('#subwrapper').append("<h3>Unanswered: "+game.unanswered+"</h3>");
         $('#subwrapper').append("<button id='reset'>Reset</button>")
     },
-    clicked: function(){
+    clicked: function(e){
         clearInterval(timer);
         if($(e.target).data("name")==questions[game.currentQuestion].correctAnswer){ game.answeredCorrectly();
         } else {
