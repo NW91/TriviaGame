@@ -133,7 +133,7 @@ var game = {
     },
     results: function(){
         clearInterval(timer);
-        $("#subwrapper").html("<h2>You're all done!)</h2>");
+        $("#subwrapper").html("<h2>You've completed the game!</h2>");
         $("#subwrapper").append("<h3>Correct: " + game.correct + "</h3>");
         $("#subwrapper").append("<h3>Incorrect: " + game.incorrect + "</h3>");
         $("#subwrapper").append("<h3>Unanswered: " + game.unanswered + "</h3>");
